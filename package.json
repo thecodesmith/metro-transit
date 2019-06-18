@@ -1,0 +1,24 @@
+{
+  "name": "metro-transit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wheres-my-bus.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodesmith/metro-transit.git"
+  },
+  "author": "Brian Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecodesmith/metro-transit/issues"
+  },
+  "homepage": "https://github.com/thecodesmith/metro-transit#readme"
+}
