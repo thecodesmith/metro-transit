@@ -1,7 +1,10 @@
+#!/usr/bin/env node
+
 const request = require('request');
 const _ = require('lodash');
 
-const api = 'http://svc.metrotransit.org/NexTrip/VehicleLocations/535';
+const route = process.argv[2] || '535';
+const api = `http://svc.metrotransit.org/NexTrip/VehicleLocations/${route}`;
 const url = 'http://geojson.io/#data=data:application/json,'
 
 request(api, { json: true }, (err, res, body) => {
